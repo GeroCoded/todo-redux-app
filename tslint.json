@@ -25,6 +25,7 @@
       true,
       "rxjs/Rx"
     ],
+    "indent": [true, "tabs", 4],
     "interface-name": false,
     "max-classes-per-file": false,
     "max-line-length": [
@@ -54,7 +55,7 @@
     ],
     "no-empty": false,
     "no-inferrable-types": [
-      true,
+      false,
       "ignore-params"
     ],
     "no-non-null-assertion": true,
@@ -73,6 +74,7 @@
       "single"
     ],
     "trailing-comma": false,
+    "no-trailing-whitespace": false,
     "no-conflicting-lifecycle": true,
     "no-host-metadata-property": true,
     "no-input-rename": true,
